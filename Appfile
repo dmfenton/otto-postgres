@@ -4,6 +4,6 @@ application {
 }
 
 customization "docker" {
-  image = "postgres"
+  image = "kpettijohn/postgis"
   run_args = "-p 5432:5432"
 }
